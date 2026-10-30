@@ -45,7 +45,7 @@ const ITEMS = [
  {
   scope: 'statewide',
   contest: 'Controller',
-  recommendation: 'Recommendation pending',
+  recommendation: 'Malia Cohen',
   summary: 'Add one or two sentences explaining your choice.',
   details: 'Add your longer analysis here, if you have time.',
   sources: []
@@ -54,7 +54,7 @@ const ITEMS = [
   scope: 'statewide',
   contest: 'Superintendent of Public Instruction',
   recommendation: 'Richard Barrera',
-  summary: 'Barrera's policy platform is ',
+  summary: 'Barrera\'s policy platform is mostly progressive, and his Republican opponent is truly troubling.',
   details: 'Add your longer analysis here, if you have time.',
   sources: []
 },
@@ -68,40 +68,40 @@ const ITEMS = [
 },
  {
   scope: 'statewide',
-  contest: 'California Governor',
-  recommendation: 'Recommendation pending',
+  contest: 'Proposition 1',
+  recommendation: 'Yes',
   summary: 'Add one or two sentences explaining your choice.',
   details: 'Add your longer analysis here, if you have time.',
   sources: []
 },
  {
   scope: 'statewide',
-  contest: 'California Governor',
-  recommendation: 'Recommendation pending',
+  contest: 'Proposition 1',
+  recommendation: 'Yes',
   summary: 'Add one or two sentences explaining your choice.',
   details: 'Add your longer analysis here, if you have time.',
   sources: []
 },
  {
   scope: 'statewide',
-  contest: 'California Governor',
-  recommendation: 'Recommendation pending',
+  contest: 'Proposition 1',
+  recommendation: 'Yes',
   summary: 'Add one or two sentences explaining your choice.',
   details: 'Add your longer analysis here, if you have time.',
   sources: []
 },
  {
   scope: 'statewide',
-  contest: 'California Governor',
-  recommendation: 'Recommendation pending',
+  contest: 'Proposition 1',
+  recommendation: 'Yes',
   summary: 'Add one or two sentences explaining your choice.',
   details: 'Add your longer analysis here, if you have time.',
   sources: []
 },
  {
   scope: 'statewide',
-  contest: 'California Governor',
-  recommendation: 'Recommendation pending',
+  contest: 'Proposition 1',
+  recommendation: 'Yes',
   summary: 'Add one or two sentences explaining your choice.',
   details: 'Add your longer analysis here, if you have time.',
   sources: []
