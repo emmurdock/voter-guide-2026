@@ -38,7 +38,7 @@ const ITEMS = [
   scope: 'statewide',
   contest: 'Treasurer',
   recommendation: 'Eleni Kounalakis',
-  summary: 'Conventional Dem vs Rep, a clear choice for Kounalakis",
+  summary: 'Conventional Dem vs Rep, a clear choice for Kounalakis',
   details: '',
   sources: []
 },
