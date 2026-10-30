@@ -53,16 +53,16 @@ const ITEMS = [
  {
   scope: 'statewide',
   contest: 'Superintendent of Public Instruction',
-  recommendation: 'Recommendation pending',
-  summary: 'Add one or two sentences explaining your choice.',
+  recommendation: 'Richard Barrera',
+  summary: 'Barrera's policy platform is ',
   details: 'Add your longer analysis here, if you have time.',
   sources: []
 },
  {
   scope: 'statewide',
   contest: 'Insurance commissioner',
-  recommendation: 'Recommendation pending',
-  summary: 'Add one or two sentences explaining your choice.',
+  recommendation: 'Jane Kim',
+  summary: 'This is the only dem. vs. dem. statewide race. Kim is running on aggressive regulation of insurance companies and a public option for disaster insurance. She is clearly more progressive and informed than her opponent.',
   details: 'Add your longer analysis here, if you have time.',
   sources: []
 },
