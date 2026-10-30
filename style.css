@@ -43,7 +43,7 @@
   display: none;
 }
 
-.race-section summary h2 {
+.race-section h2 {
   margin: 0 0 12px;
 }
 
@@ -52,14 +52,33 @@
   line-height: 1.5;
 }
 
-.expand-label {
-  display: inline-block;
-  margin-top: 12px;
-  font-weight: 700;
-  color: var(--accent);
-  text-decoration: underline;
+.race-section summary {
+  margin: 0;
 }
 
+.race-section summary:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 4px;
+}
+
+.collapse-label,
 .race-section[open] .expand-label {
+  display: none;
+}
+
+.race-section[open] .collapse-label {
+  display: inline;
+}
+
+.race-section summary .button {
+  margin-top: 12px;
+}
+
+.race-section[open] summary {
   margin-bottom: 20px;
+}
+
+.proposition-number {
+  font-weight: 700;
+  margin-bottom: 8px;
 }

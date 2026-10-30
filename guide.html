@@ -1,29 +1,35 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>2026 Voter Guide</title><link rel="stylesheet" href="style.css"></head><body data-page="guide"><header><a class="brand" href="index.html">← VOTER GUIDE / 2026</a><span class="pill" data-city-label>Oakland</span></header><div class="controls" role="group" aria-label="Level of detail"><span>HOW MUCH DETAIL?</span><button data-mode="quick" type="button">Just the recs</button>
 <button data-mode="explained" type="button">A little context</button>
 <button data-mode="detailed" type="button">All the details</button></div><main class="wrap mode-quick"><div class="eyebrow">November 3, 2026</div><h1><span data-city-label>Oakland</span><br>VOTER GUIDE.</h1><p class="lead">Browse recommendations below. Change the detail setting above at any time.</p><aside class="notice"><strong>Wait!! The local elections are super important.</strong>
-<p>More granular recs this way...</p><a class="button primary" data-district-link href="districts.html">Find your local races →</a></aside><details class="race-section">
+<p>More granular recs this way...</p><a class="button primary" data-district-link href="districts.html">Find your local races →</a></aside><details class="race-section" aria-labelledby="statewide-heading">
   <summary>
-    <h2>Statewide offices</h2>
-    <p><strong>TLDR:</strong> Vote for Jane Kim for Insurance Commissioner!! Pretty much every other race is classic suboptimal centrist Dem vs obviously terrible Rep.</p>
-    <span class="expand-label">See all statewide races ↓</span>
+    <h2 id="statewide-heading">Statewide Offices</h2>
+    <p data-tldr="statewide"></p>
+    <span class="button"><span class="expand-label">Show recommendations ↓</span><span class="collapse-label">Hide recommendations ↑</span></span>
   </summary>
   <div id="statewide"></div>
 </details>
-
-<details class="race-section">
+<details class="race-section" aria-labelledby="propositions-heading">
   <summary>
-    <h2>Regional</h2>
-    <p><strong>TLDR:</strong> Coming soon!</p>
-    <span class="expand-label">See regional recs ↓</span>
+    <h2 id="propositions-heading">Statewide Propositions</h2>
+    <p data-tldr="propositions"></p>
+    <span class="button"><span class="expand-label">Show recommendations ↓</span><span class="collapse-label">Hide recommendations ↑</span></span>
+  </summary>
+  <div id="propositions"></div>
+</details>
+<details class="race-section" aria-labelledby="regional-heading">
+  <summary>
+    <h2 id="regional-heading">Regional Measures</h2>
+    <p data-tldr="regional"></p>
+    <span class="button"><span class="expand-label">Show recommendations ↓</span><span class="collapse-label">Hide recommendations ↑</span></span>
   </summary>
   <div id="regional"></div>
 </details>
-
-<details class="race-section">
+<details class="race-section" aria-labelledby="local-heading">
   <summary>
-    <h2><span data-city-label>Oakland</span> local elections</h2>
-    <p><strong>TLDR:</strong> Coming soon!</p>
-    <span class="expand-label">See local recs ↓</span>
+    <h2 id="local-heading">Local Offices and Measures</h2>
+    <p data-tldr="local"></p>
+    <span class="button"><span class="expand-label">Show recommendations ↓</span><span class="collapse-label">Hide recommendations ↑</span></span>
   </summary>
   <div id="local"></div>
 </details><aside class="notice"><a class="button" href="https://acvote.alamedacountyca.gov/" target="_blank" rel="noopener noreferrer">Alameda County elections ↗</a></aside></main><script src="data.js"></script><script src="app.js"></script></body></html>
